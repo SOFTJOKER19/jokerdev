@@ -186,9 +186,24 @@
     z-index: 1;
   }
 }
-.button{
-  padding: 2rem;
-}
+  .cool-button {
+      background: linear-gradient(45deg, #ff4b2b, #ff416c);
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .cool-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 <body>
@@ -311,8 +326,8 @@
             <h4>Peridot's Kitchen</h4>
             <p>WhatsApp-integrated digital menu — responsive, elegant and built for conversion.</p>
             <div class="project-badges"><span class="badge">HTML</span><span class="badge">CSS</span><span class="badge">JS</span></div>
-      
-                 <button class="button">     <a href="https://perikitchen.vercel.app/index.html" target="_blank">Visit</a></button>
+       <a href="https://perikitchen.vercel.app/index.html" target="_blank" class="cool-button"></a>
+                 
             </div>
         
         </article>
